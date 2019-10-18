@@ -3,7 +3,7 @@
  "reports": [
   {
    "X-Trace": [
-    "0_DCache.NFAProxyServer.ProxyObj"
+    "DCache.NFAProxyServer.ProxyObj"
    ],
    "Host": [
     "test"
@@ -21,8 +21,8 @@
     "label"
    ],
    "Edge": [
-    "8_NFA.AdsUserCharacterServer.AdsUserCharacterObj",
-    "14_NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
+    "NFA.AdsUserCharacterServer.AdsUserCharacterObj",
+    "NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
    ],
    "ProcessID": [
     "111@process"
@@ -37,7 +37,7 @@
   },
   {
    "X-Trace": [
-    "1_FCG.ActionReportServer.ActionReportObj"
+    "FCG.ActionReportServer.ActionReportObj"
    ],
    "Host": [
     "test"
@@ -55,7 +55,7 @@
     "label"
    ],
    "Edge": [
-    "6_NFA.AdsSoftServer.SoftAdvertObj"
+    "NFA.AdsSoftServer.SoftAdvertObj"
    ],
    "ProcessID": [
     "111@process"
@@ -70,7 +70,7 @@
   },
   {
    "X-Trace": [
-    "2_FCG.GameLabelReportServer.GameLabelReportObj"
+    "FCG.GameLabelReportServer.GameLabelReportObj"
    ],
    "Host": [
     "test"
@@ -88,7 +88,7 @@
     "label"
    ],
    "Edge": [
-    "16_NFA.KdAdsPageProxyServer.PageAdObj"
+    "NFA.KdAdsPageProxyServer.PageAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -103,7 +103,7 @@
   },
   {
    "X-Trace": [
-    "3_NFA.AdsCacheProxyServer.AdsCacheProxyObj"
+    "NFA.AdsCacheProxyServer.AdsCacheProxyObj"
    ],
    "Host": [
     "test"
@@ -121,7 +121,7 @@
     "label"
    ],
    "Edge": [
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -136,7 +136,7 @@
   },
   {
    "X-Trace": [
-    "4_NFA.AdsLoadStrategyServer.AdsLoadStrategyObj"
+    "NFA.AdsLoadStrategyServer.AdsLoadStrategyObj"
    ],
    "Host": [
     "test"
@@ -154,7 +154,7 @@
     "label"
    ],
    "Edge": [
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -169,7 +169,7 @@
   },
   {
    "X-Trace": [
-    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+    "NFA.AdsScheduleServer.AdsScheduleObj"
    ],
    "Host": [
     "test"
@@ -187,8 +187,8 @@
     "label"
    ],
    "Edge": [
-    "16_NFA.KdAdsPageProxyServer.PageAdObj",
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.KdAdsPageProxyServer.PageAdObj",
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -203,7 +203,7 @@
   },
   {
    "X-Trace": [
-    "6_NFA.AdsSoftServer.SoftAdvertObj"
+    "NFA.AdsSoftServer.SoftAdvertObj"
    ],
    "Host": [
     "test"
@@ -221,7 +221,7 @@
     "label"
    ],
    "Edge": [
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -236,7 +236,7 @@
   },
   {
    "X-Trace": [
-    "7_NFA.AdsStatServer.AdsStatObj"
+    "NFA.AdsStatServer.AdsStatObj"
    ],
    "Host": [
     "test"
@@ -254,8 +254,8 @@
     "label"
    ],
    "Edge": [
-    "5_NFA.AdsScheduleServer.AdsScheduleObj",
-    "6_NFA.AdsSoftServer.SoftAdvertObj"
+    "NFA.AdsScheduleServer.AdsScheduleObj",
+    "NFA.AdsSoftServer.SoftAdvertObj"
    ],
    "ProcessID": [
     "111@process"
@@ -270,7 +270,7 @@
   },
   {
    "X-Trace": [
-    "8_NFA.AdsUserCharacterServer.AdsUserCharacterObj"
+    "NFA.AdsUserCharacterServer.AdsUserCharacterObj"
    ],
    "Host": [
     "test"
@@ -288,9 +288,9 @@
     "label"
    ],
    "Edge": [
-    "5_NFA.AdsScheduleServer.AdsScheduleObj",
-    "15_NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj",
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.AdsScheduleServer.AdsScheduleObj",
+    "NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj",
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -305,7 +305,7 @@
   },
   {
    "X-Trace": [
-    "9_NFA.AlgoExpServer.AlgoExpObj"
+    "NFA.AlgoExpServer.AlgoExpObj"
    ],
    "Host": [
     "test"
@@ -323,8 +323,8 @@
     "label"
    ],
    "Edge": [
-    "17_NFA.KdAdsProxyServer.FeedsAdObj",
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsProxyServer.FeedsAdObj",
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -339,7 +339,7 @@
   },
   {
    "X-Trace": [
-    "10_NFA.BAdsAdRecallServer.BAdsAdRecallObj"
+    "NFA.BAdsAdRecallServer.BAdsAdRecallObj"
    ],
    "Host": [
     "test"
@@ -357,7 +357,7 @@
     "label"
    ],
    "Edge": [
-    "21_NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
    ],
    "ProcessID": [
     "111@process"
@@ -372,7 +372,7 @@
   },
   {
    "X-Trace": [
-    "11_NFA.GAdsAdRecallServer.GAdsAdRecallObj"
+    "NFA.GAdsAdRecallServer.GAdsAdRecallObj"
    ],
    "Host": [
     "test"
@@ -390,7 +390,7 @@
     "label"
    ],
    "Edge": [
-    "20_NFA.KdAdsRecallServer.KdAdsGameRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsGameRecallObj"
    ],
    "ProcessID": [
     "111@process"
@@ -405,7 +405,7 @@
   },
   {
    "X-Trace": [
-    "12_NFA.GAdsComponentServer.GAdsComponentObj"
+    "NFA.GAdsComponentServer.GAdsComponentObj"
    ],
    "Host": [
     "test"
@@ -423,9 +423,9 @@
     "label"
    ],
    "Edge": [
-    "6_NFA.AdsSoftServer.SoftAdvertObj",
-    "16_NFA.KdAdsPageProxyServer.PageAdObj",
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.AdsSoftServer.SoftAdvertObj",
+    "NFA.KdAdsPageProxyServer.PageAdObj",
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -440,7 +440,7 @@
   },
   {
    "X-Trace": [
-    "13_NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
+    "NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
    ],
    "Host": [
     "test"
@@ -471,7 +471,7 @@
   },
   {
    "X-Trace": [
-    "14_NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
+    "NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
    ],
    "Host": [
     "test"
@@ -489,7 +489,7 @@
     "label"
    ],
    "Edge": [
-    "13_NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
+    "NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
    ],
    "ProcessID": [
     "111@process"
@@ -504,7 +504,7 @@
   },
   {
    "X-Trace": [
-    "15_NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj"
+    "NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj"
    ],
    "Host": [
     "test"
@@ -522,7 +522,7 @@
     "label"
    ],
    "Edge": [
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "ProcessID": [
     "111@process"
@@ -537,7 +537,7 @@
   },
   {
    "X-Trace": [
-    "16_NFA.KdAdsPageProxyServer.PageAdObj"
+    "NFA.KdAdsPageProxyServer.PageAdObj"
    ],
    "Host": [
     "test"
@@ -568,7 +568,7 @@
   },
   {
    "X-Trace": [
-    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+    "NFA.KdAdsProxyServer.FeedsAdObj"
    ],
    "Host": [
     "test"
@@ -599,7 +599,7 @@
   },
   {
    "X-Trace": [
-    "18_NFA.KdAdsRankServer.KdAdsRankObj"
+    "NFA.KdAdsRankServer.KdAdsRankObj"
    ],
    "Host": [
     "test"
@@ -617,7 +617,7 @@
     "label"
    ],
    "Edge": [
-    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+    "NFA.AdsScheduleServer.AdsScheduleObj"
    ],
    "ProcessID": [
     "111@process"
@@ -632,7 +632,7 @@
   },
   {
    "X-Trace": [
-    "19_NFA.KdAdsRecallServer.KdAdsAmsRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsAmsRecallObj"
    ],
    "Host": [
     "test"
@@ -650,8 +650,8 @@
     "label"
    ],
    "Edge": [
-    "6_NFA.AdsSoftServer.SoftAdvertObj",
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.AdsSoftServer.SoftAdvertObj",
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -666,7 +666,7 @@
   },
   {
    "X-Trace": [
-    "20_NFA.KdAdsRecallServer.KdAdsGameRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsGameRecallObj"
    ],
    "Host": [
     "test"
@@ -684,7 +684,7 @@
     "label"
    ],
    "Edge": [
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -699,7 +699,7 @@
   },
   {
    "X-Trace": [
-    "21_NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
    ],
    "Host": [
     "test"
@@ -717,7 +717,7 @@
     "label"
    ],
    "Edge": [
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -732,7 +732,7 @@
   },
   {
    "X-Trace": [
-    "22_NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
    ],
    "Host": [
     "test"
@@ -750,7 +750,7 @@
     "label"
    ],
    "Edge": [
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "ProcessID": [
     "111@process"
@@ -765,7 +765,7 @@
   },
   {
    "X-Trace": [
-    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+    "NFA.KdAdsRoughRankServer.AdsRoughRankObj"
    ],
    "Host": [
     "test"
@@ -783,7 +783,7 @@
     "label"
    ],
    "Edge": [
-    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+    "NFA.AdsScheduleServer.AdsScheduleObj"
    ],
    "ProcessID": [
     "111@process"
@@ -798,7 +798,7 @@
   },
   {
    "X-Trace": [
-    "24_NFA.SAdsAdRecallServer.SAdsAdRecallObj"
+    "NFA.SAdsAdRecallServer.SAdsAdRecallObj"
    ],
    "Host": [
     "test"
@@ -816,7 +816,7 @@
     "label"
    ],
    "Edge": [
-    "22_NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
+    "NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
    ],
    "ProcessID": [
     "111@process"
