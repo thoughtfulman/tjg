@@ -1,0 +1,833 @@
+{
+ "id": "nfa.json",
+ "reports": [
+  {
+   "X-Trace": [
+    "0_DCache.NFAProxyServer.ProxyObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "8_NFA.AdsUserCharacterServer.AdsUserCharacterObj",
+    "14_NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "1_FCG.ActionReportServer.ActionReportObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "6_NFA.AdsSoftServer.SoftAdvertObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "2_FCG.GameLabelReportServer.GameLabelReportObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "16_NFA.KdAdsPageProxyServer.PageAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "3_NFA.AdsCacheProxyServer.AdsCacheProxyObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "4_NFA.AdsLoadStrategyServer.AdsLoadStrategyObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "16_NFA.KdAdsPageProxyServer.PageAdObj",
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "6_NFA.AdsSoftServer.SoftAdvertObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "7_NFA.AdsStatServer.AdsStatObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "5_NFA.AdsScheduleServer.AdsScheduleObj",
+    "6_NFA.AdsSoftServer.SoftAdvertObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "8_NFA.AdsUserCharacterServer.AdsUserCharacterObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "5_NFA.AdsScheduleServer.AdsScheduleObj",
+    "15_NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj",
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "9_NFA.AlgoExpServer.AlgoExpObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "17_NFA.KdAdsProxyServer.FeedsAdObj",
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "10_NFA.BAdsAdRecallServer.BAdsAdRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "21_NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "11_NFA.GAdsAdRecallServer.GAdsAdRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "20_NFA.KdAdsRecallServer.KdAdsGameRecallObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "12_NFA.GAdsComponentServer.GAdsComponentObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "6_NFA.AdsSoftServer.SoftAdvertObj",
+    "16_NFA.KdAdsPageProxyServer.PageAdObj",
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "13_NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "14_NFA.KbAdsUserCharacterServer.KbAdsUserCharacterObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "13_NFA.KbAdsLoadStrategyServer.KbAdsLoadStrategyObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "15_NFA.KdAdsLoadStrategyServer.KdAdsLoadStrategyObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "16_NFA.KdAdsPageProxyServer.PageAdObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "17_NFA.KdAdsProxyServer.FeedsAdObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "18_NFA.KdAdsRankServer.KdAdsRankObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "19_NFA.KdAdsRecallServer.KdAdsAmsRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "6_NFA.AdsSoftServer.SoftAdvertObj",
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "20_NFA.KdAdsRecallServer.KdAdsGameRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "21_NFA.KdAdsRecallServer.KdAdsIMAXRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "22_NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "23_NFA.KdAdsRoughRankServer.AdsRoughRankObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "5_NFA.AdsScheduleServer.AdsScheduleObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  },
+  {
+   "X-Trace": [
+    "24_NFA.SAdsAdRecallServer.SAdsAdRecallObj"
+   ],
+   "Host": [
+    "test"
+   ],
+   "ThreadID": [
+    "1"
+   ],
+   "Class": [
+    "class"
+   ],
+   "Agent": [
+    "agent"
+   ],
+   "Label": [
+    "label"
+   ],
+   "Edge": [
+    "22_NFA.KdAdsRecallServer.KdAdsSelfMngRecallObj"
+   ],
+   "ProcessID": [
+    "111@process"
+   ],
+   "Timestamp": [
+    "1364280079.628"
+   ],
+   "ThreadName": [
+    "main"
+   ],
+   "version": "v1.0.0"
+  }
+ ]
+}
